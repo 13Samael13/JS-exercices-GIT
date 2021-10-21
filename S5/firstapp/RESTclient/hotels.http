@@ -1,0 +1,11 @@
+### READ all hotels
+GET http://localhost:3000/hotels
+
+### Create a hotel //METTRE LE PASSAGE A LIGNE APRES SINON ERREUR !
+POST http://localhost:3000/hotels 
+Content-type : application/json
+                        
+{
+    "name" : "Radison New York",
+    "stars" : 1 
+} 
